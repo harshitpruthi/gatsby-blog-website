@@ -1,0 +1,53 @@
+.container {
+    margin: auto;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-link-item {
+    padding-right: 2rem;
+}
+
+.nav-link-text {
+    color: #44475b;
+}
+
+.site-title {
+    font-size: 3rem;
+    color: gray;
+    font-weight: 700;
+    margin: 3rem 0;
+}
+
+.darkswitcher {
+    border: none;
+    border: 1px solid #44475b;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+.dark {
+    background-color: #2a2b2d;
+    color: #fff;
+    transition: all 0.6s ease;
+    height: 100vh;
+}
+
+.light {
+    transition: all 0.6s ease;
+    background-color: #fefefe;
+}
+
+.dark a,
+.dark a:visited {
+    color: #fff;
+}
